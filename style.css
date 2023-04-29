@@ -64,10 +64,17 @@ nav ul li a {
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    border: 2px solid #B46060;
+    color: #2d2d2d;
+    font-weight: 600;
 }
 
 .converterBox input {
     padding: 10px;
+    border: 2px solid #B46060;
+    outline: none;
+    color: #2d2d2d;
+    font-weight: 600;
 }
 
 #convert {
