@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnitConverter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <h2>UnitConverter</h2>
+            <ul class="navbar">
+                <li><a href="length.html">Length</a></li>
+                <li><a href="speed.html">Speed</a></li>
+                <li><a href="weight.html">Weight</a></li>
+                <li><a href="temprature.html" class="active">Temprature</a></li>
+            </ul>
+        </nav>
+        <div class="converterBox">
+            <div class="input1">
+                <select name="" id="convert-from">
+                    <option value="celcius">celcius(℃)</option>
+                    <option value="farenheit">Farenheit(F)</option>
+                    <option value="kelvin">Kelvin(k)</option>
+                </select>
+                <input type="number" name="" id="input-convert-from" placeholder="Enter the Value ">
+            </div>
+            <div class="input2">
+                <select name="" id="convert-to">
+                    <option value="celcius">celcius(℃)</option>
+                    <option value="farenheit">Farenheit(F)</option>
+                    <option value="kelvin">Kelvin(k)</option>
+                </select>
+                <input type="number" name="" id="converted-value" disabled>
+            </div>
+            <div class="btn">
+                <button id="convert">Convert</button>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

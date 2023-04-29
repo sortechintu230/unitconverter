@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #B46060;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+a {
+    color: #4D4D4D;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav ul li a:focus {
+    outline: none;
+    border: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline 5px solid #B46060;
+    text-underline-offset: 10px;
+}
+
+.converterBox {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.converterBox select {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.converterBox input {
+    padding: 10px;
+}
+
+#convert {
+    padding: 10px 20px;
+    background-color: #4D4D4D;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    font-size: 15px;
+    font-weight: 700;
+}
+#convert:focus{
+    outline: #4D4D4D;
+}
+#convert:hover {
+    background-color: #2d2d2d;
+}
+@media(max-width: 300px){
+   
+    nav ul{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    nav ul li{
+        font-size: 15px;
+    }
+}
